@@ -1,0 +1,14 @@
+*{
+    -fx-font-family: "Ubuntu";
+}
+
+.jfx-button:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #0281ff;
+    -fx-text-fill: white;
+}
+
+#nav{
+    -fx-border-width: 2px;
+    -fx-border-color: #0281ff;
+}

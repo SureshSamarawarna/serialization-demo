@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="container" prefHeight="520.0" prefWidth="670.0" stylesheets="@../css/AddStudentForm.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddStudentFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="317.0" layoutY="38.0" text="Add New Student" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtStudentID" alignment="CENTER" editable="false" labelFloat="true" layoutX="14.0" layoutY="81.0" prefHeight="24.0" prefWidth="641.0" promptText="Student ID" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="14.0" />
+      <JFXTextField fx:id="txtStudentName" alignment="CENTER" labelFloat="true" layoutX="15.0" layoutY="130.0" prefHeight="24.0" prefWidth="641.0" promptText="Student Name" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="14.0" />
+      <JFXTextField fx:id="txtStudentContact" alignment="CENTER" labelFloat="true" layoutX="15.0" layoutY="182.0" prefHeight="24.0" prefWidth="641.0" promptText="Student Contact" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="14.0" />
+      <JFXButton fx:id="btnSaveStudent" layoutX="277.0" layoutY="236.0" onAction="#btnSaveStudentOnAction" prefHeight="35.0" prefWidth="118.0" text="SAVE STUDENT" />
+   </children>
+</AnchorPane>

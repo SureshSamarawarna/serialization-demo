@@ -1,0 +1,12 @@
+*{
+    -fx-font-family: Ubuntu;
+}
+
+#btnSaveStudent{
+    -fx-background-color: #0095ff;
+    -fx-text-fill: white;
+}
+
+#container{
+    -fx-background-color: white;
+}

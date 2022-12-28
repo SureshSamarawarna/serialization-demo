@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="nav" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="180.0" stylesheets="@../css/Nav.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NavController">
+   <children>
+      <FlowPane alignment="CENTER">
+         <children>
+            <ImageView fitHeight="85.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/students.png" />
+               </image>
+            </ImageView>
+         </children>
+      </FlowPane>
+      <JFXButton onAction="#btnHomeOnAction" prefHeight="40.0" prefWidth="180.0" text="HOME">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton layoutX="10.0" layoutY="10.0" onAction="#btnAddStudentOnAction" prefHeight="40.0" prefWidth="180.0" text="ADD STUDENT" />
+      <JFXButton layoutX="10.0" layoutY="50.0" onAction="#btnViewStudentsOnAction" prefHeight="40.0" prefWidth="180.0" text="VIEW STUDENTS" />
+   </children>
+   <padding>
+      <Insets top="10.0" />
+   </padding>
+</VBox>
